@@ -1,6 +1,4 @@
 import React from 'react'
-import Api from './Api'
-
 
 const Main = () => {
   return (
