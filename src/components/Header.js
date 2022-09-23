@@ -8,7 +8,6 @@ import Ravenclaw from '../Routes/Ravenclaw';
 const Header = () => {
   return (
     <BrowserRouter>
-      <h1>Header</h1>
       <nav>
         <ul>
           <li>
