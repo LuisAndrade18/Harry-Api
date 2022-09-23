@@ -5,7 +5,7 @@ import axios from 'axios';
 function Gryffindor() {
   const [data, setData] = useState([]);
 
-  const url = 'https://hp-api.herokuapp.com/api/characters/house/Gryffindor';
+  const url = 'https://hp-api.herokuapp.com/api/characters/house/Hufflepuff';
 
   useEffect(() => {
     axios
@@ -23,7 +23,9 @@ function Gryffindor() {
       <h1>Sou Grifinoria</h1>
       {data.map((item) => (
         <div>
-          <h1>Meu nome é <S.NamesS>{item.name}</S.NamesS></h1>
+          <h1>
+            Meu nome é <S.NamesS>{item.name}</S.NamesS>
+          </h1>
           <S.Characters src={item.image} alt="" />
         </div>
       ))}

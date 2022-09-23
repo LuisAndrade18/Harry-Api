@@ -22,3 +22,9 @@ export const Names = styled.li`
 font-size: 40px;
   font-family: 'Harry P';
 `
+
+
+export const NamesS = styled.span`
+  font-size: 40px;
+  font-family: 'Harry P';
+`;
